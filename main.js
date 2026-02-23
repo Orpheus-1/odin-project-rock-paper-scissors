@@ -1,17 +1,3 @@
-/* PSEUDCODE PLAN: ROCK PAPER SCISSORS:
-    INIT humanScore and computerScore to keep track of player's score
-    CALCULATE random computer choice using Math.random in getComputerChoice function
-    INPUT user rps choice in getHumanChoice function
-    CREATE playRound function that takes in humanChoice and computerChoice functions, and compare choices
-    make it so that it lowercases all string inputs like rock ROCK or ROck for case sensitivity
-    GET user choice in console
-    WHILE humanScore and computerScore < 3
-        OUTPUT to console humanScore and computerScore
-        call user's choice in console
-        call random computer choice
-        call playRound
-*/ 
-
 
 function getComputerChoice(){
     let x = Math.round(Math.random() * (3 - 1));
@@ -98,4 +84,3 @@ let humanChoice = "";
 let computerChoice = "";
 playGame();
 
-// use toUpperCase to make all characters in a string to uppecase or localeCompare
