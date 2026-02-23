@@ -1,2 +1,2 @@
 # odin-project-rock-paper-scissors
-RPS Program inside of the Odin Project's Foundational Course
+My version of a console-based RPS Program from the Odin Project's Foundational Course
