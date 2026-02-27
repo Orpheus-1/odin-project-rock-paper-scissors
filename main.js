@@ -10,7 +10,6 @@ function getComputerChoice(){
     } else if (x === 2) {
         choice = "Scissors";
     }
-    // console.log("Computer Choice is:" + choice);
     computerChoice = choice;
     return -1;
 }
@@ -27,7 +26,6 @@ function getChoices(buttonText){
         console.log("An unknown error has occured");
         return -1
     }
-    // console.log("Human Choice is: " + choice);
     humanChoice = choice;
     getComputerChoice();
     return -1
@@ -79,22 +77,7 @@ function gameCompareEval(humanChoice, computerChoice) {
 
 }
 
-// function playGame(){
-//     let gameCount = 0;
-//     while (gameCount < 5) {
-//         getHumanChoice();
-//         getComputerChoice();
-//         gameCompareEval(humanChoice, computerChoice); 
-//         gameCount += 1;
-//     }
-//     if (humanScore > computerScore) {
-//         console.log("Human Wins the Game!");
-//     } else if (computerScore > humanScore) {
-//         console.log("Computer Wins the Game!");
-//     } else {
-//         console.log("Tie! Both of you are winners and losers!");
-//     }
-// }
+
 
 
 let humanScore = 0;
@@ -102,12 +85,6 @@ let computerScore = 0;
 let humanChoice = "";
 let computerChoice = "";
 let gameOver = false;
-/*
- * create three buttons that when dom hears them clicked, logs the user's selection of "rock", "paper", or "scissors"
- * after such, it should then calculate the computer's choice at clicking as well. THEN compare.run play ROUND
- * display the winner and score (Player Score | Win/Loss | Computer Score)
- * Keep score displayed, below have a quip saying something like "Select Next Choice" which would be replaced with You Won!  or You Loss! or Tie!
- */
 
 const buttonContainer = document.querySelector("#btn-container");
 
