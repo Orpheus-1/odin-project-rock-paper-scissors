@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+body #text-container{
+
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+
+body #btn-container {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body #btn-container #fate {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    
+}
+
+body #text-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
